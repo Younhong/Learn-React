@@ -142,7 +142,6 @@ class App extends Component {
                   contents: _contents,
                   mode: 'welcome'
                 });
-                console.log(this.max_content_id);
                 alert("Deleted");
               }
             } else {
