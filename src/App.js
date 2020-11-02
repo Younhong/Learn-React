@@ -133,7 +133,6 @@ class App extends Component {
                 while (i < this.state.contents.length) {
                   if (_contents[i].id === this.state.selected_content_id) {
                     _contents.splice(i, 1);
-                    this.max_content_id = this.max_content_id - 1;
                     break;
                   }
                   i = i + 1;
